@@ -1,0 +1,23 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+
+**/*.metadata
+**/*.recommenders/
+**/target/**
+**/target
+/target/
+**/build/**
+**/build
+**/.classpath/**
+**/.classpath
+**/bin/**
+**/bin
+**/.factorypath
+.factorypath
+
+withMETAdata-boot/target
+withMETAdata-domain/target
+withMETAdata-service/target
+withMETAdata-store/target
+.svn
