@@ -1,0 +1,77 @@
+<!--
+==================================================================================
+* Copyright (c) 2022 Withfuture
+* --------------------------------------------------------------------------------
+* @File : sample.html
+* --------------------------------------------------------------------------------
+* Change history
+* @Modified Date : 수정자 : 수정내용
+* @2022-06-22    : 노의현 : 최초 제작
+==================================================================================
+-->
+<!DOCTYPE html PULBIC "-//W3C//DTD XHTML 1.0 Transitional//EN" SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<title>sample</title>
+		
+		<!-- css -->
+		<link rel="stylesheet" href="/static/toast-ui/tui-pagination/dist/tui-pagination.css" />
+		<link rel="stylesheet" href="/static/toast-ui/tui-date-picker/dist/tui-date-picker.css" />
+		<link rel="stylesheet" href="/static/toast-ui/tui-time-picker/dist/tui-time-picker.css" />
+		<link rel="stylesheet" href="/static/toast-ui/tui-grid/dist/tui-grid.css" />
+		<link rel="stylesheet" href="/static/toast-ui/tui-chart/dist/toastui-chart.css" />
+		<!-- css -->
+		
+		<!-- js lib -->
+		<script type="text/javascript" src="/static/js/jquery-3.5.1.min.js" ></script>
+		<script type="text/javascript" src="/static/js/common.js" ></script>
+		<script type="text/javascript" src="/static/toast-ui/tui-pagination/dist/tui-pagination.js" ></script>
+		<script type="text/javascript" src="/static/toast-ui/tui-date-picker/dist/tui-date-picker.js" ></script>
+		<script type="text/javascript" src="/static/toast-ui/tui-time-picker/dist/tui-time-picker.js" ></script>
+		<script type="text/javascript" src="/static/toast-ui/tui-grid/dist/tui-grid.js" ></script>
+		<script type="text/javascript" src="/static/toast-ui/tui-chart/dist/toastui-chart.js" ></script>
+		<script type="text/javascript" src="/views/withmetadata/js/sample.js" ></script>
+		<!-- js lib -->
+		
+	</head>
+	<body>
+		<input type="hidden" id="selectOneSample" name ='selectOneSample' >
+		<div>CUD Sample</div>
+		<table>
+			<tr>
+				<th>insertId</th>
+				<th>insertName</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td><input id="insertId" name='insertId' placeholder="insertId"></td>
+				<td><input id="insertName" name='insertName' placeholder="insertName"></td>
+				<td><input id="insertBtn" name='insertBtn' type="button" value="insertBtn"></td>
+			</tr>
+			<tr>
+				<th>updateId</th>
+				<th>updateName</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td><input id="updateId" name='updateId' placeholder="updateId"></td>
+				<td><input id="updateName" name='updateName' placeholder="updateName"></td>
+				<td><input id="updateBtn" name='updateBtn' type="button" value="updateBtn"></td>
+			</tr>
+			<tr>
+				<th>deleteId</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td><input id="deleteId" name='deleteId' placeholder="deleteId"></td>
+				<td><input id="deleteBtn" name='deleteBtn' type="button" value="deleteBtn"></td>
+			</tr>
+		</table>
+		<div>All List</div>
+		<div id="grid"></div>
+		 <div id="chart-area"></div>
+	</body>
+</html>
