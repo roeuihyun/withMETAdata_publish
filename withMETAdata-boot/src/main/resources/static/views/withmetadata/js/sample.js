@@ -150,7 +150,36 @@ function deleteSample(){
 function toastUIGridSample(){
 	grid = new tui.Grid({
 		el: document.getElementById('grid'),
-		data: selectListSample(),
+		data: [
+              {
+                  "id": "2",
+                  "name": "222"
+              },
+              {
+                  "id": "3",
+                  "name": "333"
+              },
+              {
+                  "id": "4",
+                  "name": "updateName"
+              },
+              {
+                  "id": "5",
+                  "name": "555"
+              },
+              {
+                  "id": "1",
+                  "name": "111"
+              },
+              {
+                  "id": "6",
+                  "name": "666"
+              },
+              {
+                  "id": "11",
+                  "name": "1234123"
+              }
+          ],
 		rowHeaders: ['checkbox'],
 		scrollX: false,
 		scrollY: false,
